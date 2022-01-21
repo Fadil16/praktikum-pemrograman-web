@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SISTA | Daftar Seminar</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- navbar -->
+    <link rel="stylesheet" href="dist/css/nav.css">
+    <script src="dist/css/nav.css"></script>
+</head>
+
+<body>
+    <!-- /.navbar -->
+    <div class="navbar-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo-STT-NF-1.png" alt="Logo" width="60px">
+                    <a style="margin-left: 10px; font-size: 30px;">SISTA</a> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-md-auto">
+                        <li class="nav-item" style="border-right: 1px solid; float: left; padding: 3px" ;>
+                            <a class="nav-link" aria-current="page" href="login.html">Home</a>
+                        </li>
+                        <li class="nav-item" style="border-right: 1px solid; float: left; padding: 3px">
+                            <a class="nav-link" href="jadwal.html">Jadwal</a>
+                        </li>
+                        <li class="nav-item" style="border-right: 1px solid; float: left; padding: 3px">
+                            <a class="nav-link" href="daftar.html">Daftar Seminar</a>
+                        </li>
+                        <li class="nav-item" style="border-right: 1px solid; float: left; padding: 3px">
+                            <a class="nav-link" href="#">Berita</a>
+                        </li>
+                        <li class="nav-item" style="border-right: none; float: left; padding: 3px">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- /.end navbar -->
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <h1 class="text-center">Sistem Informasi Seminar Tugas Akhir - SISTA </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="" id="form2">
+        <!--bisa dinganti jadi img-->
+        <div class="container-fluid py-2">
+            <!-- fluid agar tampilan website penuh dan py for padding pada sumbu-y-->
+            <div class="col ml-5 mt-5">
+                <h4>Pendaftaran Seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari Pembimbing TA</h4>
+            </div>
+            <fieldset class="border p-4 ml-5 mb-5 mr-5">
+                <legend class="w-auto">Form Daftar Seminar TA</legend>
+                <form>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+
+                                NIM <span id="nim">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;
+                                    :</span>
+                                <input type="number" value="" id="seminar">
+                                <br><br> Nama <span id="nama">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    :</span>
+                                <input type="text" value="" id="seminar">
+                                <br><br> Prodi 
+                                <span id="prodi">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                     :
+                                </span>
+                                <select name="jurusan" id="jurusan">
+                                <option value="si">Sistem Informasi</option>
+                                <option value="ti">Teknik informatika</option>
+                                <option value="bd">Bisnis Digital</option>
+                                </select>
+                                <br><br> Tanggal Seminar <span id="tglseminar">:</span>
+                                <input type="date" value="" id="">
+                                <br><br> Jam Seminar <span id="jamseminar">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    :</span>
+                                <input type="time" value="" id="">
+                                <br><br> Ruangan <span id="ruangan">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;
+                                    :</span>
+                                <input type="text" value="" id="">
+                                <br><br>
+                            </div>
+                            <div class="col">
+                                Judul TA <span id="judulta2">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    :</span>
+                                <textarea name="" id="" cols="30" rows="3" class="mx-2"></textarea>
+                                <br><br> 
+                                Seminar <span id="jenisseminar">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    :</span>
+                                <select name="seminar" id="">
+                                    <option value=""></option>
+                                    <option value="">proposal</option>
+                                </select>
+                                <br><br> Pembimbing <span id="pembimbing">:</span>
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Sirojul Munir S.SI, M.KOM.</option>
+                                </select>
+                                <br><br> Penguji 1 <span id="penguji">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    :</span>
+
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Ahmad Rio M.SI</option>
+                                </select>
+                                <br><br> Penguji 2 <span id="penguji">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    :</span>
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value="">Amalia Rahmah M.T</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary">Update</button>
+                                <button type="submit" class="btn btn-primary">Hapus</button>
+                            </div>
+                </form>
+            </fieldset>
+            </div>
+            </div>
+
+    </div>
+    <!-- /.login-box -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.min.js"></script>
+</body>
+
+</html>
